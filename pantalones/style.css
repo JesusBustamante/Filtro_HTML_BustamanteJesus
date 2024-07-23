@@ -1,0 +1,282 @@
+@font-face {
+    font-family: mlight;
+    src: url(../font/MyriadPro-Light.otf);
+}
+
+@font-face {
+    font-family: mbold;
+    src: url(../font/MYRIADPRO-BOLD.OTF);
+}
+
+@font-face {
+    font-family: mregular;
+    src: url(../font/MYRIADPRO-REGULAR.OTF);
+}
+
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0vw;
+    left: 0vw;
+    background: #222e29;
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 25vw;
+    height: 100vh;
+    background: #222e29;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+#tittle {
+    margin-left: 6vw;
+    margin-top: 3vw;
+    font-size: 2vw;
+    color: white;
+    font-family: mregular;
+}
+
+#product {
+    margin-left: 6vw;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    color: white;
+    font-family: mlight;
+}
+
+#options {
+    margin-left: 6vw;
+    font-size: 1.5vw;
+    margin-top: 0vw;
+    color: white;
+    font-family: mlight;
+}
+
+#car {
+    margin-left: 6vw;
+    font-size: 1.5vw;
+    margin-top: 5vw;
+    color: white;
+    font-family: mlight;
+}
+
+.stock {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    width: 70vw;
+    height: 90vh;
+    background: #93bfa9;
+    top: 2.5vw;
+    left: 25vw;
+    border-radius: 3vw;
+}
+
+.stock > div {
+    position: absolute;
+    top: 5vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: white;
+    border-radius: 2vw;
+}
+
+.c1 {
+    position: absolute;
+    left: 2vw;
+}
+
+.c2 {
+    position: absolute;
+    left: 19vw;
+}
+
+.c3 {
+    position: absolute;
+    left: 36vw;
+}
+
+.c4 {
+    position: absolute;
+    left: 53vw;
+}
+
+#allproduct {
+    position: absolute;
+    font-size: 2vw;
+    font-family: mregular;
+    left: 3vw;
+    top: 0vw;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    background-color: #3b5249;
+    height: 5vw;
+    border-radius: 1vw;
+    margin-top: 11.5vw;
+}
+
+.information > p {
+    margin-top: 0vw;
+    margin-left: 1vw;
+    font-size: 0.8vw;
+    font-family: mlight;
+    color: white;
+}
+
+.agregar1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 2vw;
+    background-color: #93bfa9;
+    border-radius: 0.5vw;
+    top: 13.5vw;
+    left: 9vw;
+    font-size: 0.8vw;
+    font-family: mlight;
+}
+
+.agregar2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 2vw;
+    background-color: #93bfa9;
+    border-radius: 0.5vw;
+    top: 13.5vw;
+    left: 9vw;
+    font-size: 0.8vw;
+    font-family: mlight;
+}
+
+.agregar3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 2vw;
+    background-color: #93bfa9;
+    border-radius: 0.5vw;
+    top: 13.5vw;
+    left: 9vw;
+    font-size: 0.8vw;
+    font-family: mlight;
+}
+
+.agregar4 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 2vw;
+    background-color: #93bfa9;
+    border-radius: 0.5vw;
+    top: 13.5vw;
+    left: 9vw;
+    font-size: 0.8vw;
+    font-family: mlight;
+}
+
+.agregar5 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 2vw;
+    background-color: #93bfa9;
+    border-radius: 0.5vw;
+    top: 13.5vw;
+    left: 9vw;
+    font-size: 0.8vw;
+    font-family: mlight;
+}
+
+#abrigo1 {
+    position: absolute;
+    width: 5vw;
+    left: 5vw;
+    top: 1vw;
+}
+
+#abrigo2 {
+    position: absolute;
+    width: 6vw;
+    left: 4vw;
+    top: 1vw;
+}
+
+
+#abrigo3 {
+    position: absolute;
+    width: 5vw;
+    left: 4vw;
+    top: 1vw;
+}
+
+#abrigo4 {
+    position: absolute;
+    width: 5vw;
+    left: 4vw;
+    top: 1vw;
+}
+
+#abrigo5 {
+    position: absolute;
+    width: 5vw;
+    left: 5vw;
+    top: 1vw;
+}
+
+.lastcasilla {
+    position: absolute;
+    background-color: white;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 2vw;
+    top: 28vw;
+    left: 27vw;
+}
+
+.casilla5 {
+    position: absolute;
+    top: 0.2vw;
+    width: 15vw;
+}
+
+.icons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 3vw;
+    top: 12.5vw;
+    gap: 1.5vw;
+}
+
+.icons img {
+    width: 1.8vw;
+}
+
+#iconcarrito {
+    margin-left: 0vw;
+    margin-top: 5vw;
+    width: 2vw;
+}
