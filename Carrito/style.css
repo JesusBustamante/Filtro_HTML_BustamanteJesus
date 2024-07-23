@@ -1,0 +1,177 @@
+@font-face {
+    font-family: mlight;
+    src: url(../font/MyriadPro-Light.otf);
+}
+
+@font-face {
+    font-family: mbold;
+    src: url(../font/MYRIADPRO-BOLD.OTF);
+}
+
+@font-face {
+    font-family: mregular;
+    src: url(../font/MYRIADPRO-REGULAR.OTF);
+}
+
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0vw;
+    left: 0vw;
+    background: #222e29;
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 25vw;
+    height: 100vh;
+    background: #222e29;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+#tittle {
+    margin-left: 6vw;
+    margin-top: 3vw;
+    font-size: 2vw;
+    color: white;
+    font-family: mregular;
+}
+
+#product {
+    margin-left: 6vw;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    color: white;
+    font-family: mlight;
+}
+
+#options {
+    margin-left: 6vw;
+    font-size: 1.5vw;
+    margin-top: 0vw;
+    color: white;
+    font-family: mlight;
+}
+
+#car {
+    margin-left: 6vw;
+    font-size: 1.5vw;
+    margin-top: 5vw;
+    color: white;
+    font-family: mlight;
+}
+
+.stock {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    width: 70vw;
+    height: 90vh;
+    background: #93bfa9;
+    top: 2.5vw;
+    left: 25vw;
+    border-radius: 3vw;
+}
+
+.stock > div {
+    width: 60vw;
+    height: 10vw;
+    background-color: white;
+    border-radius: 2vw;
+}
+
+.c1 {
+    position: absolute;
+    top: 5vw;
+    left: 2vw;
+}
+
+.c2 {
+    position: absolute;
+    top: 18vw;
+    left: 2vw;
+}
+
+.c3 {
+    position: absolute;
+    top: 33vw;
+    left: 2vw;
+}
+
+
+#allproduct {
+    position: absolute;
+    font-size: 2vw;
+    font-family: mregular;
+    left: 3vw;
+    top: 0vw;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    background-color: #3b5249;
+    height: 3vw;
+    border-radius: 1vw;
+    margin-top: 7vw;
+}
+
+.information > p {
+    margin-top: 0vw;
+    margin-left: 1vw;
+    font-size: 0.6vw;
+    font-family: mlight;
+    color: white;
+}
+
+
+
+#abrigo1 {
+    position: absolute;
+    width: 4vw;
+    left: 5vw;
+    top: 1vw;
+}
+
+#abrigo2 {
+    position: absolute;
+    width: 4vw;
+    left: 5vw;
+    top: 1vw;
+}
+
+
+#abrigo3 {
+    position: absolute;
+    width: 4vw;
+    left: 5vw;
+    top: 1vw;
+}
+
+.icons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 3vw;
+    top: 12.5vw;
+    gap: 1.5vw;
+}
+
+.icons img {
+    width: 1.8vw;
+}
+
+#iconcarrito {
+    margin-left: 0vw;
+    margin-top: 5vw;
+    width: 2vw;
+}
