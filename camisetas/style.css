@@ -72,18 +72,19 @@
     position: absolute;
     display: flex;
     align-items: center;
+    overflow: auto;
+    scroll-behavior:  smooth;
     gap: 2vw;
     width: 70vw;
     height: 90vh;
     background: #93bfa9;
     top: 2.5vw;
     left: 25vw;
-    border-radius: 3vw;
+    border-radius: 1vw;
 }
 
 .stock > div {
     position: absolute;
-    top: 5vw;
     width: 15vw;
     height: 15vw;
     background-color: white;
@@ -92,22 +93,32 @@
 
 .c1 {
     position: absolute;
+    top: 5vw;
     left: 2vw;
 }
 
 .c2 {
     position: absolute;
+    top: 5vw;
     left: 19vw;
 }
 
 .c3 {
     position: absolute;
+    top: 5vw;
     left: 36vw;
 }
 
 .c4 {
     position: absolute;
+    top: 5vw;
     left: 53vw;
+}
+
+.c5 {
+    position: absolute;
+    top: 24vw;
+    left: 2vw;
 }
 
 #allproduct {
@@ -150,64 +161,8 @@
     font-family: mlight;
 }
 
-.agregar2 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 5vw;
-    height: 2vw;
-    background-color: #93bfa9;
-    border-radius: 0.5vw;
-    top: 13.5vw;
-    left: 9vw;
-    font-size: 0.8vw;
-    font-family: mlight;
-}
-
-.agregar3 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 5vw;
-    height: 2vw;
-    background-color: #93bfa9;
-    border-radius: 0.5vw;
-    top: 13.5vw;
-    left: 9vw;
-    font-size: 0.8vw;
-    font-family: mlight;
-}
-
-.agregar4 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 5vw;
-    height: 2vw;
-    background-color: #93bfa9;
-    border-radius: 0.5vw;
-    top: 13.5vw;
-    left: 9vw;
-    font-size: 0.8vw;
-    font-family: mlight;
-}
-
-.agregar5 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 5vw;
-    height: 2vw;
-    background-color: #93bfa9;
-    border-radius: 0.5vw;
-    top: 13.5vw;
-    left: 9vw;
-    font-size: 0.8vw;
-    font-family: mlight;
+#links {
+    color: white;
 }
 
 #abrigo1 {
@@ -244,22 +199,6 @@
     width: 7.8vw;
     left: 4vw;
     top: 2vw;
-}
-
-.lastcasilla {
-    position: absolute;
-    background-color: white;
-    width: 15vw;
-    height: 15vw;
-    border-radius: 2vw;
-    top: 28vw;
-    left: 27vw;
-}
-
-.casilla5 {
-    position: absolute;
-    top: 0.2vw;
-    width: 15vw;
 }
 
 .icons {
