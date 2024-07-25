@@ -103,7 +103,7 @@
 }
 
 .stock > div {
-    width: 60vw;
+    width: 65vw;
     height: 10vw;
     background-color: white;
     border-radius: 2vw;
@@ -168,13 +168,13 @@
 #cant {
     position: absolute;
     top:  5.5vw;
-    left: 24vw;
+    left: 29vw;
     width: 8vw;height: 1vw;
 }
 
 #cantidad {
     margin-top: -5vw;
-    margin-left: 26vw;
+    margin-left: 31vw;
     font-family: mregular;
     font-size: 1.2vw;
 }
@@ -182,48 +182,80 @@
 .cost1 {
     font-family: mregular;
     font-size: 1.2vw;
-    margin-left: 35vw;
+    margin-left: 40vw;
     margin-top: -2.4vw;
 }
 
 .subcost1 {
     font-family: mregular;
     font-size: 1.2vw;
-    margin-left: 40vw;
+    margin-left: 45vw;
     margin-top: -5.3vw;
 }
 
 .cost {
     font-family: mregular;
     font-size: 1.2vw;
-    margin-left: 35vw;
+    margin-left: 40vw;
     margin-top: -3.4vw;
 }
 
 .subcost {
     font-family: mregular;
     font-size: 1.2vw;
-    margin-left: 40vw;
+    margin-left: 45vw;
     margin-top: -5.3vw;
 }
 
 #trash1 {
     position: absolute;
     top: 3vw;
-    left: 50vw;
+    left: 55vw;
     width: 5vw;
 }
 
 #trash2 {
     position: absolute;
     top: 3vw;
-    left: 50vw;
+    left: 55vw;
     width: 5vw;
 }
 
 #trash3 {
     position: absolute;
     top: 3vw;
-    left: 50vw;
+    left: 55vw;
     width: 5vw;
+}
+
+#vaciar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 38vw;
+    left: 3vw;
+    background-color: #222e29;
+    width: 10vw;
+    height: 2vw;
+    color: white;
+    font-size: 1vw;
+    font-family: mlight;
+    border-radius: 0.6vw;
+}
+
+#total {
+    position: absolute;
+    top: 38vw;
+    left: 52vw;
+    width: 15vw;
+    height: 5vw;
+    background-color: white;
+    border-radius: 1vw;
+}
+
+.pago {
+    font-family: mlight;
+    margin-left: 2vw;
+    color: #222e29;
 }
